@@ -17,3 +17,14 @@ input("Hello " + input("Who are u? "))
 #len() tells you how many characters is in a particular string
 name = len(input("Len Function Tells me the Length of a String? "))
 print(name)
+
+################# SWITCH RULE VARIABLES ###############
+a = input("Assembly")
+b = input("Basic")
+
+c = a
+a = b
+b = c
+
+print("a " + a)
+print("b " + b)
