@@ -28,3 +28,11 @@ b = c
 
 print("a " + a)
 print("b " + b)
+
+################# DAY 1 FINAL PROJECT ########################
+print("Welcome to the band name Generator")
+city = input("What City Did You Grow Up? \n")
+pet = input("What is the name of your pet?\n")
+
+brand = print("Your City is " + city + "Your Pet Name is " + pet + "\n")
+print(brand)
