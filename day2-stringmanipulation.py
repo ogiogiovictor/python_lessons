@@ -14,3 +14,48 @@ two_digit = "39"[0]
 last_digit = "39"[1]
 
 print(int(two_digit) + int(last_digit))
+
+#### PEMDAS #######
+# Parentheses
+# Exponents
+# Multiplication
+# Division
+# Addition
+# Substraction
+
+#################### BODY MASS INDEX CALCULATION #####################
+height = input()
+weight = input()
+
+weight_as_int = int(weight)
+height_as_float = float(height)
+
+bmi = weight_as_int / height_as_float ** 2
+print(bmi)
+
+
+#################### ROUND FUNCTION #####################
+print(round(8 / 3, 2))
+print(897 // 3) ## The floor division
+
+#################### F STRINGS #####################
+score = 5
+height = 1.8
+isWinning = True
+print(f'your socre is {score} and height is {height} and wining is {isWinning}')
+
+################### CALCULATE LIFETIME WEEKS ##############################
+age = input()
+years = 90 - int(age)
+weeks = years * 52
+
+print(f"You have {weeks} left")
+
+################### TIP CALCULATOR ##############################
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("How much tip would you like to give? 10, 12 or 15? "))
+people = int(input("How many people to split the bill?"))
+
+bill_with_tip = tip / 100 * bill + bill
+print(bill_with_tip)
